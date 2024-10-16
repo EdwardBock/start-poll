@@ -1,0 +1,137 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Start Poll\n"
+"POT-Creation-Date: 2024-10-10 15:46+0200\n"
+"PO-Revision-Date: 2024-10-10 15:45+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: classes/AdminNotice.php:18
+msgid "Did the wordpress plugin starterkit help you and saved time?"
+msgstr ""
+
+#: classes/AdminNotice.php:19
+msgid "Donation"
+msgstr ""
+
+#: classes/AdminNotice.php:21
+msgid "Github Sponsorship"
+msgstr ""
+
+#: classes/PostType.php:19
+msgctxt "Post Type General Name"
+msgid "Polls"
+msgstr ""
+
+#: classes/PostType.php:20
+msgctxt "Post Type Singular Name"
+msgid "Poll"
+msgstr ""
+
+#: classes/PostType.php:21 classes/PostType.php:25 classes/PostType.php:43
+msgid "Polls"
+msgstr ""
+
+#: classes/PostType.php:22 classes/PostType.php:23
+msgid "Poll"
+msgstr ""
+
+#: classes/PostType.php:24
+msgid "Parent Poll:"
+msgstr ""
+
+#: classes/PostType.php:26
+msgid "Add Poll"
+msgstr ""
+
+#: classes/PostType.php:27
+msgid "New Poll"
+msgstr ""
+
+#: classes/PostType.php:28
+msgid "New"
+msgstr ""
+
+#: classes/PostType.php:29
+msgid "Edit"
+msgstr ""
+
+#: classes/PostType.php:30
+msgid "Update"
+msgstr ""
+
+#: classes/PostType.php:31
+msgid "View"
+msgstr ""
+
+#: classes/PostType.php:32
+msgid "Search"
+msgstr ""
+
+#: classes/PostType.php:33
+msgid "Not found"
+msgstr ""
+
+#: classes/PostType.php:34
+msgid "Not found in trash"
+msgstr ""
+
+#: classes/PostType.php:35
+msgid "Insert into item"
+msgstr ""
+
+#: classes/PostType.php:36
+msgid "Uploaded to this item"
+msgstr ""
+
+#: classes/PostType.php:37
+msgid "Items list"
+msgstr ""
+
+#: classes/PostType.php:38
+msgid "Items list navigation"
+msgstr ""
+
+#: classes/PostType.php:39
+msgid "Filter items list"
+msgstr ""
+
+#: classes/PostType.php:44
+msgid "Adds custom post type card"
+msgstr ""
+
+#: classes/PostsTable.php:31
+msgid "Reading Time"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Start Poll"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Start with polls on your page"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Edward Bock <hi@edwardbock.de>"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.palasthotel.de"
+msgstr ""

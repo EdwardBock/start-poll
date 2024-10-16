@@ -1,0 +1,54 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-start-poll-poll {
+	border: 1px solid var(--wp-admin-theme-color);
+	padding: 10px;
+	margin-block: 5px;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	[data-title] {
+		font-weight: bold;
+		margin-bottom: 1em;
+	}
+
+	[data-chart] {
+		height: 10px;
+		width: 100%;
+		border: 1px solid darkgray;
+		background: lightgray;
+		margin-block: 10px;
+		position: relative;
+	}
+
+	[data-bar] {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		min-width: 2px;
+		background: var(--wp-components-color-accent, var(--wp-admin-theme-color, #3858e9));
+	}
+
+
+	[data-label] {
+		background: var(--wp-components-color-accent, var(--wp-admin-theme-color, #3858e9));
+		padding: 6px;
+		border-radius: 1px;
+		color: white;
+	}
+
+
+}
