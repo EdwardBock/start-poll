@@ -6,6 +6,9 @@
  */
 
 $options = start_poll_get_options($attributes["pollId"]);
+if(!is_array($options)){
+	$options = [];
+}
 $label = start_poll_get_submit_button_label($attributes["pollId"]);
 
 $attrs = get_block_wrapper_attributes();

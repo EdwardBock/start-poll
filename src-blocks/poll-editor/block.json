@@ -6,7 +6,7 @@
 	"title": "Poll Editor",
 	"category": "widgets",
 	"icon": "chart-bar",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "Create and manage polls to embed in posts or pages.",
 	"example": {},
 	"supports": {
 		"html": false,

@@ -6,7 +6,7 @@
 	"title": "Poll by ID",
 	"category": "start-poll",
 	"icon": "chart-bar",
-	"description": "Poll widget.",
+	"description": "Add a poll to your post or page, making it easy to engage your audience.",
 	"example": {},
 	"supports": {
 		"html": false

@@ -35,14 +35,22 @@ class PostsTable extends Component {
 		return $newColumns;
 	}
 
+
 	public function custom_columns($column, $post_id): void {
-		if ($column == "poll_votes") {
-			$options = start_poll_get_options($post_id);
-			$overall = array_reduce($options, function ($result, $option) {
-				return $result + $option["counter"];
-			}, 0);
-			echo $overall;
+		if ($column != "poll_votes") {
+			return;
 		}
+		$options = start_poll_get_options($post_id);
+		if(!is_array($options)) {
+			var_dump($options);
+			return;
+		}
+
+		$overall = array_reduce($options, function ($result, $option) {
+			return $result + $option["counter"];
+		}, 0);
+
+		echo $overall;
 	}
 
 
